@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px
+}
+section{
+    border: 2px solid transparent;
+    height: 92vh;
+    display: flex;
+   justify-content: space-between;
+}
+      .box{
+        border: 2px solid transparent;
+        height: 65vh;
+        width: 55%;
+        position: relative;
+        top: 16%;
+        left: 40px;
+      }  
+      .box p{
+        font-size: 55px;
+        margin-top: 6%;
+        color: rgb(255, 253, 253);
+      }
+      .box p span{
+        color: red;
+        font-size: 75px;
+      }
+      .image{
+        border: 2px solid transparent;
+        width: 40%;position: relative;
+        top: 16%;
+        left: -15px;
+        height: 65vh;
+      }
+      .image img{
+        width: 105%;
+        position: relative;
+        left: -10%;
+        height: 70vh;
+        filter: drop-shadow(0 0 10px black);
+        transition: .4s linear;
+        transform: rotate(-10deg);
+        cursor: pointer;
+      }
+      .image img:hover{
+        
+        transform: scale(0.9);
+      }
+    </style>
+</head>
+<body>
+   <section>
+<div class="box">
+<p><span>welcome!</span><br> To The Vintage Resturent........</p>
+</div>
+<div class="image">
+    <img src="./images/pngwing.com.png" alt="">
+</div>
+   </section>
+    
+</body>
+</html>

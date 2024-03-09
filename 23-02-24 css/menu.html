@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturent</title>
+
+<style>
+
+    nav{
+     border: 2px solid transparent;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+    }
+    nav h2{
+        color: white
+    }
+    body{
+     background-color: transparent;
+    }
+    section{
+        border: 2px solid transparent;
+        width: 98%;
+        height: 86vh;
+        margin-top: -8px;
+        display: flex ;
+        gap: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .b1{
+        border: 2px solid gray;
+        height: 80vh;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+        width: 30%;
+        
+        margin-top: 25px;
+        margin-left: 29px;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        
+        
+    }
+    .b1::-webkit-scrollbar{
+        width: 0;
+    }
+    .veg h2{
+        position: relative;
+        left: 35%;
+        color: white;
+        text-decoration: underline;
+    }
+    .nonveg h2{
+        position: relative;
+        left: 35%;
+        color: white;
+        text-decoration: underline;
+    }
+   .desserts h2{
+    margin-left: 40%;
+    color: white;
+    text-decoration: underline;
+   }
+   .l1{
+    border: 1px solid gray;
+    height: 27vh;
+    margin-left: 5px;
+    margin-right: 5px ;
+ background-image: linear-gradient(140deg,black,aqua,black);
+    display: flex;
+    align-items: center;
+    
+    box-shadow: 0 0 7px rgb(255, 251, 251);
+    padding: 5px 5px;
+   }
+   .l1 img{
+    position: relative;
+    left: 30px;
+   }
+   .l1 .info{
+    border: 2px solid transparent;
+    position: relative;
+    left: 25px;
+    width: 37vh;
+    height: 13vh;
+   }
+   .l1 .info h4{
+    text-align: center;
+    margin-top: 0;
+    color: black;
+    font-size: 18px;
+   }
+   .l1 .info li{
+    position: relative;
+    top: -10px;
+    color: black;
+    left: 30px;
+
+   }
+   .l1 button{
+    position: relative;
+    left: 80px;
+    top: 10px;
+border: none;
+border: 2px solid rgba(56, 58, 59, 0.826);
+border-radius: 5px;
+background-color: rgb(64, 72, 72);
+box-shadow: 0 0 10px gray;
+   }
+   .l1 button a{
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+    font-weight: 600 ;
+   }
+   .l1 button a:hover{
+    color: rgb(207, 6, 6);
+   }
+    
+</style>
+</head>
+<body>
+<nav>
+      <h2><u>OUR MENU</u></h2>
+      
+</nav>
+
+
+
+
+<section>
+ 
+  
+<div class="veg b1">
+    <h2>veg items</h2>
+    
+   
+       <div class="l1">
+            <a href="https://imgs.search.brave.com/6PmtHNgsPUKM245PYGyZZIlPP8ZWslF1_QXLLYxYPGY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zcGlj/ZWNyYXZpbmdzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8wOS9JTUdfMzEz/NC1jb3B5LWUxNTc5/Nzk4OTQ4MTc2Lmpw/Zw"><img src="./images/paneer.jpg" width="100px" height="100px"> </a>
+            <div class="info">
+                <h4> Panner biryani</h4>       
+            <li><b>Price</b>- 200/- </li>
+            <button><a href="#">Add to cart</a></button>
+            </div>
+    </div>
+    <div class="l1">
+        <a href=""><img src="./images/Egg-Biryani-3.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> Egg biryani</h4>       
+        <li><b>Price</b>- 160/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+</div>
+<div class="l1">
+    <a href="https://imgs.search.brave.com/tGrYHQVimaVKl6iWPy8e-NBiWY2e-_4YlRS2I26pUws/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzgyLzM2LzA0/LzM2MF9GXzY4MjM2/MDQ3Ml93TFJWNW8w/UHRyS3d5ZFhiNDl0/VUt5NVdudUIxSnM3/Qy5qcGc"><img src="./images/veg1.jpg" width="100px" height="100px"> </a>
+    <div class="info">
+        <h4> Veg biryani</h4>       
+    <li><b>Price</b>- 170/- </li>
+    <button><a href="#">Add to cart</a></button>
+    </div>
+</div>
+<div class="l1">
+    <a href="https://imgs.search.brave.com/EC5f-PIkrA7UOU4GfySspIJW4MxS1Fqf8cUMUCU3_58/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zaHdl/dGFpbnRoZWtpdGNo/ZW4uY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzA2L3Zl/Z2V0YXJpYW4tZnJp/ZWQtcmljZS5qcGc"><img src="./images/vegetarian-fried-rice.jpg" width="100px" height="100px"> </a>
+    <div class="info">
+        <h4> Veg fried rice</h4>       
+    <li><b>Price</b>- 80/- </li>
+    <button><a href="#">Add to cart</a></button>
+    </div>
+</div>
+<div class="l1">
+    <a href="https://imgs.search.brave.com/8ByDG5Snq4edCoeCU53899eUpk36E-a1KWMLWHiSI8s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4x/LmZvb2R2aXZhLmNv/bS9zdGF0aWMtY29u/dGVudC9mb29kLWlt/YWdlcy9yaWNlLXJl/Y2lwZXMvdmVnZXRh/YmxlLXB1bGF2LXJl/Y2lwZS92ZWdldGFi/bGUtcHVsYXYtcmVj/aXBlLmpwZw"><img src="./images/pulav.jpg" width="100px" height="100px"> </a>
+    <div class="info">
+        <h4> Veg pulav</h4>       
+    <li><b>Price</b>- 110/- </li>
+    <button><a href="#">Add to cart</a></button>
+    </div>
+</div>
+<div class="l1">
+    <a href="https://imgs.search.brave.com/_ekQ7uoP7C7SNKh_0RhlQrRZrI5BuvX1lKZHMui1fS4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFuaGVhbHRo/eXJlY2lwZXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzAyL3ZlZy1ub29k/bGVzLXZlZ2V0YWJs/ZS1ub29kbGVzLmpw/Zy53ZWJw"><img src="./images/noodles.jpg" width="100px" height="100px"> </a>
+    <div class="info">
+        <h4> Veg noodles</h4>       
+    <li><b>Price</b>- 100/- </li>
+    <button><a href="#">Add to cart</a></button>
+    </div>
+</div>
+
+</div>
+
+</div>
+<div class="nonveg b1">
+    <h2>Non-veg items</h2>
+    
+   
+       <div class="l1">
+        <a href="C:\Users\veera\OneDrive\Desktop\searchpages\23-02-24 css\images"><img src="./images/chicken1.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> Chicken biryani</h4>       
+        <li><b>Price</b>- 300/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+           
+       </div>
+        <div class="l1">
+            <a href="https://imgs.search.brave.com/ePOgnZWfANHQ43fAOXnaP37uFhCMejk41hLtU7tGoLg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA1/ODAyOTA5Ni9waG90/by9jaGlja2VuLWJp/cnlhbmkuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXlWVjFS/QXJrWXoxZlhmMEJs/cGV1d3h0MHlUSEhE/bmxPVVJWTUptWWdB/ZUk9"><img src="./images/chicken-biryani.jpg" width="100px" height="100px"> </a>
+            <div class="info">
+                <h4> Mini chicken biryani</h4>       
+            <li><b>Price</b>- 190/- </li>
+            <button><a href="#">Add to cart</a></button>
+            </div>
+        </div>
+       
+
+        <div class="l1">
+            <a href="https://imgs.search.brave.com/MXPxjnadMa30hUz0_ETB1Nl1C2KloQfTGB13T3sqcIw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYXdzLm5lc3Rs/ZS5yZWNpcGVzL3Jl/c2l6ZWQvMTBjMDU2/ODEwODFiNDc5NTBm/ZTJmOTBlNzM5Njhl/N2RfQ2hpY2tlbi1N/YW5kaV85NDRfNTMx/LmpwZw"><img src="./images/cmandi.jpg" width="100px" height="100px"> </a>
+            <div class="info">
+                <h4> Chicken mandi</h4>       
+            <li><b>Price</b>- 270/- </li>
+            <button><a href="#">Add to cart</a></button>
+            </div>
+        </div>
+
+        <div class="l1">
+            <a href="https://imgs.search.brave.com/OAC4su1JOlzt0BF_IigcNO5iGCaZwA6dxnbftUDuNuU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzcwLzU4Lzcy/LzM2MF9GXzU3MDU4/NzIzM19Rbkdkd0Mz/WENwRFFsYkprOWFr/QnR5ZTZCTjBZOTda/QS5qcGc"><img src="./images/mutton.jpg" width="100px" height="100px"> </a>
+            <div class="info">
+                <h4> Mutton special biryani</h4>       
+            <li><b>Price</b>- 410/- </li>
+            <button><a href="#">Add to cart</a></button>
+            </div>
+        </div>
+        <div class="l1">
+            <a href="https://imgs.search.brave.com/XBCjPj-CgqWmWYPC9FoU-B_Xs_YxJR8_NRUbLBItvUI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zcGlj/ZWNyYXZpbmdzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8wOS9JTUdfMzEz/NC1jb3B5LWUxNTc5/Nzk4OTQ4MTc2Lmpw/Zw"><img src="IMG_3134-copy-e1579798948176.webp" width="100px" height="100px"> </a>
+            <div class="info">
+           
+            <button><a href="#">Add to cart</a></button>
+            </div>
+        </div>
+        <div class="l1">
+            <a href="https://imgs.search.brave.com/XBCjPj-CgqWmWYPC9FoU-B_Xs_YxJR8_NRUbLBItvUI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zcGlj/ZWNyYXZpbmdzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ny8wOS9JTUdfMzEz/NC1jb3B5LWUxNTc5/Nzk4OTQ4MTc2Lmpw/Zw"><img src="IMG_3134-copy-e1579798948176.webp" width="100px" height="100px"> </a>
+            <div class="info">
+              
+            <button><a href="#">Add to cart</a></button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    
+</div>
+<div class="desserts b1">
+    <h2>Desserts</h2>
+    <div class="l1">
+        <a href="https://imgs.search.brave.com/nIs_JS9Ke8QVs2fyQJdWXOQHsGauDi9hXGI9RtAM1jo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU1/NDMyMTMzL3Bob3Rv/L2NyZXBlcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9eDU5/YW90dG5uS2tFUnQ3/T0JWRUpWbEp0Q0k5/UWpMOVg1dTIydzU4/emkwcz0"><img src="./images/crepes.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> crepes - french crepes </h4>       
+        <li><b>Price</b>- 130/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+
+    <div class="l1">
+        <a href="https://symposiumcafe.com/images/menu/dessert-menu/restaurant-brownie-desserts-symposium-cafe.webp"><img src="./images/restaurant-brownie-desserts-symposium-cafe.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> DESSERT SQUARES</h4>       
+        <li><b>Price</b>- 200/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+
+    <div class="l1">
+        <a href="https://symposiumcafe.com/images/menu/dessert-menu/fruit-milkshakes-dessert-menu-symposium-restaurant.webp"><img src="./images/fruit-milkshakes-dessert-menu-symposium-restaurant.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> MILKSHAKES</h4>       
+        <li><b>Price</b>- 100/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+    <div class="l1">
+        <a href="https://imgs.search.brave.com/UvIfWvogBS_FGVWBmzp3Am-79u5AWiIjwfn-A-LzcBQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/c3F1YXJlbWVhbC5j/by51ay9hcnRpY2xl/Lzc4MTAvaW1hZ2Vz/L2Jlc3QtZGVzc2Vy/dHMtaW4tbG9uZG9u/LXRyaWZsZS10aGUt/Y2Fkb2dhbi1hcm1z/XzI2MDYyMDIzMDEz/MzIxLmpwZz93PTkx/MyZhdXRvPWZvcm1h/dCxjb21wcmVzcw"><img src="./images/dessert.jpg" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> ICE CREAM FAVOURITES</h4>       
+        <li><b>Price</b>- 150/- </li>
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+
+    <div class="l1">
+        <a href=""><img src="IMG_3134-copy-e1579798948176.webp" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4> </h4>       
+     
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+
+    <div class="l1">
+        <a href=""><img src="IMG_3134-copy-e1579798948176.webp" width="100px" height="100px"> </a>
+        <div class="info">
+            <h4></h4>       
+        
+        <button><a href="#">Add to cart</a></button>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+  
+
+
+</section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</body>
+</html>
